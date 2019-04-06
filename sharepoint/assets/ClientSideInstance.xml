@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="UnpromoteNews"
+        Location="ClientSideExtension.ListViewCommandSet.CommandBar"
+        ListTemplateId="119"
+        Properties="{}"
+        ComponentId="82141dc5-f438-4db4-a785-ca9e5c93f79a" />
+</Elements>

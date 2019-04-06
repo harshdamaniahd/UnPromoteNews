@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="UnpromoteNews"
+        RegistrationId="119"
+        RegistrationType="List"
+        Location="ClientSideExtension.ListViewCommandSet.CommandBar"
+        ClientSideComponentId="82141dc5-f438-4db4-a785-ca9e5c93f79a"
+        ClientSideComponentProperties="{}">
+    </CustomAction>
+</Elements>

@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.7.1",
+    "libraryName": "unpromote-news",
+    "libraryId": "e3c440d6-b14d-4fcb-84e1-aac1edc818ba",
+    "packageManager": "npm",
+    "componentType": "extension",
+    "extensionType": "ListViewCommandSet"
+  }
+}

@@ -1,0 +1,68 @@
+:global .ms-Modal 
+{
+    opacity:0 !important;
+}
+
+.justALinkContentContainer
+{
+    padding:24px;
+}
+
+.iconContainer
+{
+    margin-bottom:16px;
+    font-size: 21px;
+    text-align: center;
+}
+
+.icon
+{
+    line-height: 44px;
+    border-radius: 50%;
+    width:44px;
+    height:44px;
+    color: #ffffff;
+    animation: popup .45s;
+}
+.msg
+{
+   
+    height: 24px;
+    text-align: center;
+    display: block;
+    padding: 5px;
+}
+.fileName
+{
+    font-size: 17px;
+    font-weight: 300;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center
+}
+
+.shareContainer
+{
+    padding:10px 4px 12px 4px;
+    display:flex;
+    
+    display: block;
+    text-align: center;
+}
+
+.filePathTextBox
+{
+    width:100%;
+}
+
+@keyframes popup {
+    from {
+      transform: scale(0.0);
+    }    
+    to {
+        transform: scale(1.25);
+    }
+    to {
+        transform: scale(1.0);
+    }
+  }

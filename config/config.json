@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "unpromote-news-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/unpromoteNews/UnpromoteNewsCommandSet.js",
+          "manifest": "./src/extensions/unpromoteNews/UnpromoteNewsCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "UnpromoteNewsCommandSetStrings": "lib/extensions/unpromoteNews/loc/{locale}.js"
+  }
+}
