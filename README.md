@@ -1,6 +1,12 @@
 ## unpromote-news
 
-This is where you include your WebPart documentation.
+Extension(List View Command Set) for unpromotting a news (or unplublish a news)
+![](ezgif-1-f9aae0655408.gif)
+
+What happens if the news is already unpromoted.
+
+![](https://sharepointhd.files.wordpress.com/2019/04/image-5.png)
+
 
 ### Building the code
 
