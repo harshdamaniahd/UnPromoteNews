@@ -58,7 +58,8 @@ class UnPromoteNewsButton extends
   public render(): JSX.Element {
     return (
       <div>
-        {this.props.promotedState == 2 || this.props.promotedState == 1 ? (
+      
+        {this.props.promotedState == 2  ? (
           <Callout
             className="ms-CalloutExample-callout"
             ariaLabelledBy={'callout-label-1'}
@@ -131,11 +132,12 @@ class UnPromoteNewsButton extends
   private async btnUnPromoteClick(): Promise<void> {
     try
     {
+      //Updating the promoted state to 0
       this.setState({ message: strings.WIP })
-      const pageItem = await sp.web.getFileByServerRelativeUrl(this.props.pageRelativeUrl)
-        .select('PromotedState').getItem();
+      const pageItem = await sp.web.getFileByServerRelativeUrl(this.props.pageRelativeUrl).getItem();
       const update = await pageItem.update({ PromotedState: 0 });
       this.setState({ message: strings.Newsispromoted });
+      //Setting a delay and closing the dialog box
       setTimeout(() => {
         const callout: UnPromoteNewsComponent = new UnPromoteNewsComponent();
         this.onDismiss(callout);
